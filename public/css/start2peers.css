@@ -11,9 +11,7 @@ body {
 
 /*THEMES*/
 
-
 /*something is not working*/
-
 
 /*
 #room_box.dark, #theme_box.dark, #menu.dark, #input_box.dark {
@@ -43,6 +41,10 @@ body {
     display: none;
 }
 
+.canvas_img  {
+    max-height: 100px;
+    max-width: 100px;
+}
 
 /*LOGIN AERA*/
 
@@ -80,7 +82,6 @@ body {
     font-size: 1.5rem;
     padding-top: 25px;
 }
-
 
 /* MENU */
 
@@ -120,7 +121,6 @@ body {
     text-decoration: inherit;
 }
 
-
 /* ROOM BOX */
 
 #room_box {
@@ -132,7 +132,6 @@ body {
     margin-top: 40px;
     margin-left: 40px;
 }
-
 
 /* CHAT BOX */
 
@@ -244,7 +243,6 @@ label {
 button {
     outline: none;
 }
-
 
 /* THEME BOX */
 

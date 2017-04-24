@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	// CHANGE THEME --> DARK
 		$(".dark").click(function(){
 			$("#menu").css("background-color", "#3B3B3B");
 			$(".dark").css("color", "white");
@@ -18,7 +19,7 @@ $(document).ready(function(){
 			$(".message_style").css("color", "white");
 			$('body').css("background-image", "url(/static/image/bg-star-dark2-opacity.png)");
 		});
-
+	// CHANGE THEME --> LIGHT
         $(".light").click(function(){
             $("#menu").css("background-color", "white");
 			$(".dark").css("color", "black");
