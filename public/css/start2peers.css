@@ -1,0 +1,302 @@
+body {
+    background-image: url("/static/image/bg-star-dark2-opacity.png");
+    background-size: cover;
+}
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+
+/*THEMES*/
+
+
+/*something is not working*/
+
+
+/*
+#room_box.dark, #theme_box.dark, #menu.dark, #input_box.dark {
+    background-color: #3B3B3B;
+}
+
+#chat_box.light, #room_box.light, #theme_box.light, #menu.light, #input_box.light, li.message_box.light {
+    background-color: white;
+}
+
+#chat_box.dark {
+    background-color: rgba(59, 59, 59, 0.79);
+}
+
+#chat_box.light {
+    background-color: rgba(255, 255, 255, 0.79);
+}*/
+
+
+/*ALL CHAT CONTENT*/
+
+.chat_content {
+    display: none;
+}
+
+.menu ul {
+    display: none;
+}
+
+
+/*LOGIN AERA*/
+
+.login_content {
+    background-color: #3B3B3B;
+    margin-top: 20%;
+    margin-left: 20%;
+    height: 260px;
+    width: 350px;
+    border-radius: 5px;
+    margin-top: 190px;
+    margin-left: 514px;
+}
+
+#username_input {
+    font-family: 'Droid Sans Mono', monospace;
+    border: none;
+    background: transparent;
+    color: white;
+    text-align: center;
+    font-size: 1.7rem;
+    height: 160px;
+}
+
+#start_chatting {
+    font-family: 'Droid Sans Mono', monospace;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    margin-left: 69px;
+}
+
+#login_username {
+    font-size: 1.5rem;
+    padding-top: 25px;
+}
+
+
+/* MENU */
+
+#menu {
+    background-color: #3B3B3B;
+    width: 100%;
+    display: inline-block;
+    -webkit-box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.75);
+}
+
+#logo {
+    float: left;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-left: 20px;
+}
+
+#menu ul {
+    float: right;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+#menu li {
+    float: left;
+    margin-left: 60px;
+}
+
+#menu li:hover {
+    color: #AE81FF;
+}
+
+#menu a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+/* ROOM BOX */
+
+#room_box {
+    float: left;
+    height: 400px;
+    width: 290px;
+    background-color: #3B3B3B;
+    border-radius: 5%;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+/* CHAT BOX */
+
+#chat_box {
+    float: left;
+    width: 600px;
+    max-height: 430px;
+    height: 430px;
+    overflow-y: scroll;
+    background-color: rgba(59, 59, 59, 0.79);
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.message_box {
+    float: left;
+    width: 93%;
+    max-height: 8000000px;
+    background-color: #3B3B3B;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'Droid Sans Mono', monospace;
+}
+
+.message_style {
+    display: inline;
+    clear: both;
+    float: left;
+    margin: 10px;
+    color: white;
+    font-family: 'Droid Sans Mono', monospace;
+    margin-bottom: 20px;
+}
+
+.user_name {
+    color: #A6E22E;
+    font-family: 'Droid Sans Mono', monospace;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 10px;
+    float: left;
+}
+
+.date_style {
+    margin: 10px;
+    margin-left: 50px;
+    font-size: 12px;
+    float: right;
+    color: #95989A;
+}
+
+.inbox-container {
+    max-height: 500px;
+}
+
+#text_holder {
+    float: left;
+    width: 600px;
+    border-top: 1px solid white;
+    margin-left: 370px;
+    background-color: #3B3B3B;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+#input_box {
+    font-family: 'Droid Sans Mono', monospace;
+    margin-left: 20px;
+    border: none;
+    width: 65%;
+    height: 70px;
+    color: white;
+    font-size: 15px;
+    background-color: #3B3B3B;
+    float: left;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+label {
+    float: left;
+    height: 75px;
+}
+
+#imagefile {
+    display: none;
+}
+
+#sendbutton {
+    background-color: #A6E22E;
+    border: none;
+    color: #3B3B3B;
+    padding: 28.5px 28px;
+    border-bottom-right-radius: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#sendbutton:active {
+    background-color: #4CAF50;
+}
+
+button {
+    outline: none;
+}
+
+
+/* THEME BOX */
+
+#theme_box {
+    float: left;
+    height: 50px;
+    width: 245px;
+    background-color: #3B3B3B;
+    border-radius: 5%;
+    margin-top: -428px; //ouais je sais
+    margin-left: 39px;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+.dark {
+    font-family: 'Droid Sans Mono', monospace;
+    font-weight: 300;
+    color: white;
+    float: left;
+    display: block;
+    margin: 10px;
+}
+
+.dark:hover {
+    color: #AE81FF;
+}
+
+.light {
+    font-family: 'Droid Sans Mono', monospace;
+    font-weight: 300;
+    color: white;
+    float: left;
+    display: block;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+.light:hover {
+    color: #AE81FF;
+}
+
+.dot1 {
+    fill: #A6E22E;
+    height: 15%;
+    float: left;
+    margin: 15px;
+}
+
+.dot2 {
+    fill: #F92672;
+    height: 15%;
+    float: left;
+    margin: 15px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>start2peers</title>
+    <link rel="stylesheet" href="/static/css/reset.css">
+    <link rel="stylesheet" href="/static/css/font.css">
+    <link rel="stylesheet" href="/static/css/start2peers.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="menu">
+            <div id="logo">
+                <h1 class="pink">Start2peers</h1>
+            </div>
+            <ul>
+                <li><a href='/chat'>Change User<a/></li>
+            </ul>
+        </div>
+    <header>
+
+    <div class="container">
+        <div class="login_content">
+            <h6 id="login_username" class="orange">enter a username</h6>
+            <input type="text" autofocus id="username_input"/> </input>
+            <button id="start_chatting" class="green">start chatting!</button>
+        </div>
+        <div class="chat_content">
+        <!-- ROOM BOX -->
+            <section>
+                <div id="room_box">
+                    <div class="room_id">
+                        <div class="connected_people">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- CHAT BOX -->
+            <section>
+                <div class="inbox_container">
+                    <div id="chat_box">
+                        <ul class='mymsg'>
+                        </ul>
+                    </div>
+                    <div id="text_holder">
+                        <input type="text" autofocus id="input_box" placeholder='Type a text' /> </input>
+                        <label for="imagefile">
+                            <img src="/static/image/image-button.png"/>
+                        </label>
+                        <div class="filebutton"><input type="file" id="imagefile" accept="image/*"></div>
+                        <button id="sendbutton">Send</button>
+                    </div>
+                </div>
+            </section>
+        <!-- THEME BOX -->
+            <section>
+                <div id="theme_box">
+                    <h6>Theme</h6>
+                    <p class="dark">Dark</p>
+                    <?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <svg version="1.1" class="dot1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                        <g>
+                        	<g>
+                        		<path d="M256,0C114.837,0,0,114.837,0,256s114.837,256,256,256s256-114.837,256-256S397.163,0,256,0z"/>
+                        	</g>
+                        </svg>
+                    <p class="light">Light</p>
+                    <?xml version="1.0" encoding="iso-8859-1"?>
+                        <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                        <svg version="1.1" class="dot2" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                        <g>
+                        	<g>
+                        		<path d="M256,0C114.837,0,0,114.837,0,256s114.837,256,256,256s256-114.837,256-256S397.163,0,256,0z"/>
+                        	</g>
+                        </svg>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="/static/js/start2peers.js"></script>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

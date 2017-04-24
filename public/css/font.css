@@ -1,0 +1,38 @@
+/*SIZE, WHEIGHT AND FONT*/
+
+H1 {
+    font-family: 'Droid Sans Mono', monospace;
+    font-weight: 900;
+    font-size : 2rem;
+}
+
+li {
+    font-family: 'Droid Sans Mono', monospace;
+    color: white;
+    font-weight: 500;
+}
+
+h6 {
+    font-family: 'Droid Sans Mono', monospace;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+/*COLOR*/
+
+.pink {
+    color: #F92672;
+}
+
+.purple {
+    color: #AE81FF;
+}
+
+.orange {
+    color: #F98620;
+}
+
+.green {
+    color: #A6E22E;
+}
