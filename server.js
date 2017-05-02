@@ -92,4 +92,9 @@ app.get('/chat', function(req, res) {
     res.sendFile(__dirname + '/views/start2peers.html');
 });
 
+app.get('/test', function(req, res) {
+    console.log('REQ on /test');
+    res.sendFile(__dirname + '/views/test.html');
+});
+
 server.listen(1337);
