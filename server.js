@@ -97,4 +97,4 @@ app.get('/test', function(req, res) {
     res.sendFile(__dirname + '/views/test.html');
 });
 
-server.listen(1337);
+server.listen(8080);
