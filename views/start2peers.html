@@ -18,7 +18,7 @@
 
   ga('create', 'UA-98334933-1', 'auto');
   ga('send', 'pageview');
-
+ 
 </script>
 </head>
 
@@ -62,7 +62,7 @@
                         <label for="imagefile">
                             <img src="/static/image/image-button.png"/>
                         </label>
-                        <div class="filebutton"><input type="file" id="imagefile" accept="image/*"></div>
+                        <div onclick="ga('send', 'event', 'boutton_image', 'envois d'image');" class="filebutton"><input type="file" id="imagefile" accept="image/*"></div>
                         <button id="sendbutton">Send</button>
                     </div>
                 </div>
